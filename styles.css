@@ -52,6 +52,13 @@ button:hover {
   width: 175px;
 }
 
+#add {
+  color: blue;
+  font-size: 40px;
+  font-family: arial;
+}
+
+
 .row {
   height: 33vh;
   display: flex;

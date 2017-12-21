@@ -21,8 +21,8 @@ submit.on("click", function() {
   let input = $("#input").val();
   let delbut = $("<button> delete </button>");
   let text = $("<section > </section>");
-  text.append(input).append(delbut);
   $("#input").val(" ");
+  text.append(delbut).append("&nbsp;").append("&nbsp;").append(input);
   $("#add").append(text);
   delbut.on("click", function() {
     text.html(" ");
